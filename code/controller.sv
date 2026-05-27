@@ -23,6 +23,6 @@ module controller #(
 
 
     assign en = start; 
-    assign load = (cycle_count < N); // Stays high for exactly N cycles
+    assign load = (cycle_count < N); // Stays high for exactly 'N' cycles
 
 endmodule
